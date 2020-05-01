@@ -4,25 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicole Graiff</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" href="/css/style.css">-->
+    <style>
+        body {
+            background-color: #efeee7;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+    
+        header {
+            background-color: #4b191e;
+        }
+
+        h1 {
+            padding: 20px 0;
+            margin: 0;
+            margin-bottom: 20px;
+            font-size: 28px;
+            font-weight: 800;
+            color: #eee;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        a {
+            color: #4b191e;;
+        }
+
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        #main-bio,
+        #contact-info,
+        #bio-image {
+            float: left;
+        }
+
+        #main-bio {
+            width: 70%;
+        }
+
+        #contact-info {
+            width: 30%;
+        }
+
+        #bio-image {
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            border-radius: 5px;
+            border: 2px solid #333333;
+        }
+    </style>
 </head>
 <body>
-    <h1>
-        <strong>Student Bio</strong>
-    </h1>
-    <h2>
-        <strong>Nicole Graiff</strong>
-    </h2>
-    <img src="https://lh3.googleusercontent.com/1urNo09ivixU3xnVUKCBD77WzUMVslwylFT3zU_L-QGQqbw5WqoFCcUU6j1RK06jeEVbxrsWwpfhaxJT5tE17EInKzMOb2Q9USyC0Pj6RHRhcWn_nENTJ3UUQ53SPQHx_M0vq6FkD00707dMrYYJZNGrJnrPyrf_r9Q9EoN9G9tZ9odSlF3BqjmXZtO4zKfBsiLM0OlRluPaVSO8axgme6hsOk-dR99Y4bRbq2WP4XUud7xJuz_arjZDhrkPUamXURADvCdWbL9PeyzVhm-8NQeBaNyKbEW1HE41KaUxTdrMpJ54yS-Y1ZgqK_v5-x0hTKXSH8u5eupf-A0WO-8ca74Bj_t1vgYbelvp6PyaXz_3LMdZosChg-0dvMrN_SRldBqy4MucCSZEHkzHag7jWkLklSpgVztKYMyp5Rb22ftEyvbxiuLFJXOP17Fmi-TWKZIwk455pmj-IMwopEjhqTsWqUqFzlKgX-WEqSRgcNP6ZzrxfJbJxOX5MsPckywObWVcsPgYoVWKcBn2vauZ9BCEH84TEAwpTRQg5Po0mFMCFWfMKK48s1q9AZV2D8VU3d7H6vTsL3IdZZzgAXef4d8w0xQzsqRV6OGgYe0kXMET93XdIw3j11gq-x5CQNi98yKeiiO16wUZHcKcwQDJbALmDVwk8sXSohLq41vFZRzOBJ_jMNK2unx2xATfPQ=s1696-no" width="200px">
-    <p>
-        Quis varius quam quisque id diam vel. Orci eu lobortis elementum nibh tellus molestie. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Mauris rhoncus aenean vel elit. At elementum eu facilisis sed odio morbi quis commodo. Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. 
-    </p>
-    <h2>
-        <strong>Contact Info</strong>
-    </h2>
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:nicole.graiff@gmail.com">nicole.graiff@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="https://github.com/keycole">keycole</a></li>
-        <li><strong>Portfolio:</strong> coming soon</li>
-    </ul>
+    <header>
+    <h1><strong>Student Bio</strong></h1>
+    </header>
+    <div class="container">
+        <section id="main-bio">
+            <h2><strong>Nicole Graiff</strong></h2>
+            <img id="bio-image" src="https://lh3.googleusercontent.com/1urNo09ivixU3xnVUKCBD77WzUMVslwylFT3zU_L-QGQqbw5WqoFCcUU6j1RK06jeEVbxrsWwpfhaxJT5tE17EInKzMOb2Q9USyC0Pj6RHRhcWn_nENTJ3UUQ53SPQHx_M0vq6FkD00707dMrYYJZNGrJnrPyrf_r9Q9EoN9G9tZ9odSlF3BqjmXZtO4zKfBsiLM0OlRluPaVSO8axgme6hsOk-dR99Y4bRbq2WP4XUud7xJuz_arjZDhrkPUamXURADvCdWbL9PeyzVhm-8NQeBaNyKbEW1HE41KaUxTdrMpJ54yS-Y1ZgqK_v5-x0hTKXSH8u5eupf-A0WO-8ca74Bj_t1vgYbelvp6PyaXz_3LMdZosChg-0dvMrN_SRldBqy4MucCSZEHkzHag7jWkLklSpgVztKYMyp5Rb22ftEyvbxiuLFJXOP17Fmi-TWKZIwk455pmj-IMwopEjhqTsWqUqFzlKgX-WEqSRgcNP6ZzrxfJbJxOX5MsPckywObWVcsPgYoVWKcBn2vauZ9BCEH84TEAwpTRQg5Po0mFMCFWfMKK48s1q9AZV2D8VU3d7H6vTsL3IdZZzgAXef4d8w0xQzsqRV6OGgYe0kXMET93XdIw3j11gq-x5CQNi98yKeiiO16wUZHcKcwQDJbALmDVwk8sXSohLq41vFZRzOBJ_jMNK2unx2xATfPQ=s1696-no" alt="Nicole Graiff">
+            <p>Quis varius quam quisque id diam vel. Orci eu lobortis elementum nibh tellus molestie. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Mauris rhoncus aenean vel elit. At elementum eu facilisis sed odio morbi quis commodo. Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. </p>
+        </section>
+        <section id="contact-info">
+            <h2><strong>Contact Info</strong></h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:nicole.graiff@gmail.com">nicole.graiff@gmail.com</a></li>
+                <li><strong>Github:</strong> <a href="https://github.com/keycole">keycole</a></li>
+                <li><strong>Portfolio:</strong> coming soon</li>
+             </ul>
+        </section>  
+    </div>
 </body>
 </html>
