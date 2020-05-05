@@ -1,6 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #efeee7;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Garamond, 'Times New Roman', Times, serif;
     color: #333333;
     margin: 0;
     padding: 0;
@@ -14,8 +18,10 @@ h1 {
     padding: 20px 0;
     margin: 0;
     margin-bottom: 20px;
-    font-size: 28px;
+    font-family: Cormorant, Helvetica, sans-serif;
+    font-size: 32px;
     font-weight: 800;
+    text-shadow: 0px 1px 1px #4d4d4d;
     color: #eee;
     text-align: center;
 }
@@ -23,10 +29,11 @@ h1 {
 h2 {
     font-size: 24px;
     font-weight: 600;
+    margin-left: 5px;
 }
 
 a {
-    color: #4b191e;;
+    color: #4b191e;
 }
 
 .container {
@@ -41,11 +48,14 @@ a {
 }
 
 #main-bio {
-    width: 70%;
+    width: 69%;
+    margin-right: 1%;
+    height: 600px;
 }
 
 #contact-info {
     width: 30%;
+    height: 600px;
 }
 
 #bio-image {
@@ -55,4 +65,19 @@ a {
     border-radius: 5px;
     border: 2px solid #333333;
     padding: 5px;
+}
+
+#bio-image::after {
+    content: "";
+    display: block;
+    overflow: auto;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #4b191e;
+    padding: 10px;
+    color: #eee;
+    font-family: Cormorant, Helvetica, sans-serif;
 }
