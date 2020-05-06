@@ -20,6 +20,7 @@ h1 {
     margin-bottom: 20px;
     font-family: Cormorant, Helvetica, sans-serif;
     font-size: 32px;
+
     font-weight: 800;
     text-shadow: 0px 1px 1px #4d4d4d;
     color: #eee;
@@ -51,11 +52,15 @@ a {
     width: 69%;
     margin-right: 1%;
     height: 600px;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 #contact-info {
     width: 30%;
     height: 600px;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 #bio-image {
